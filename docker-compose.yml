@@ -1,0 +1,5 @@
+services:
+  lisp:
+    image: clfoundation/clisp
+    volumes:
+      - ./src:/src
